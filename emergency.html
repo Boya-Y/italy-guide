@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#9b2c2c" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="意行急救" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Manrope:wght@500;600;700&family=Noto+Sans+SC:wght@400;500;650;700&display=swap" rel="stylesheet" />
+    <title>急救 · 意大利旅行手册</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <a class="back" href="./index.html">← 首页</a>
+      <p class="kicker">Emergenza</p>
+      <h1 class="page-title">急救与领保</h1>
+      <p class="lede">大号可拨号。不懂意大利语先打 <strong>112</strong>。说：<em>Aiuto. I need help.</em></p>
+
+      <div class="tel-grid">
+        <a class="tel tel-main" href="tel:112">
+          <span class="num">112</span>
+          <span class="label">欧洲统一紧急（含宪兵等）· 首选</span>
+        </a>
+        <a class="tel tel-alt" href="tel:113">
+          <span class="num">113</span>
+          <span class="label">警察 Polizia · 盗窃/报警</span>
+        </a>
+        <a class="tel tel-alt" href="tel:118">
+          <span class="num">118</span>
+          <span class="label">急救救护车 · Pronto Soccorso</span>
+        </a>
+        <a class="tel tel-soft" href="tel:115">
+          <span class="num">115</span>
+          <span class="label">火警 Vigili del Fuoco</span>
+        </a>
+        <a class="tel tel-soft" href="tel:00861012308">
+          <span class="num">0086-10-12308</span>
+          <span class="label">外交部全球领保（24h）</span>
+        </a>
+        <a class="tel tel-soft" href="tel:+393939110852">
+          <span class="num">+39 393 911 0852</span>
+          <span class="label">驻意使馆领保应急（仅应急）</span>
+        </a>
+        <a class="tel tel-soft" href="tel:+393242616666">
+          <span class="num">+39 324 261 6666</span>
+          <span class="label">驻米兰总领馆领保</span>
+        </a>
+        <a class="tel tel-soft" href="tel:+393357748753">
+          <span class="num">+39 335 774 8753</span>
+          <span class="label">驻佛罗伦萨总领馆领保</span>
+        </a>
+      </div>
+
+      <div class="placeholder" id="insurance">
+        <strong>保险占位（请自行填写）</strong><br />
+        保险电话：____________　保单号：____________<br />
+        护照号：____________　酒店：____________
+      </div>
+
+      <div class="panel" style="margin-top: 0.85rem">
+        <h3>报案与防骗</h3>
+        <p>财物失窃：先 <strong>112/113</strong>，要 <strong>denuncia</strong> 回执给保险。使馆<strong>不会</strong>电话要求你转账或保密汇款。</p>
+        <div class="action">
+          <strong>推荐动作</strong>
+          把本页加到主屏幕 / 浏览器收藏夹置顶；弱网时优先打开本页。
+        </div>
+        <div class="links">
+          <a class="ext" href="https://it.china-embassy.gov.cn/chn/lsyw/lianxiwomenlingqiao/" target="_blank" rel="noopener">中国驻意使馆领侨联系 ↗</a>
+          <a class="ext" href="https://www.italia.it/en/italy/practical-information/emergency-and-assistance" target="_blank" rel="noopener">Italia.it 紧急电话 ↗</a>
+          <a class="ext" href="./share.html">怎么加主屏幕 →</a>
+        </div>
+      </div>
+
+      <nav class="footer-nav">
+        <a class="row-link" href="./medical.html">就医</a>
+        <a class="row-link" href="./index.html">首页</a>
+      </nav>
+    </div>
+    <script src="./src/main.js" defer></script>
+  </body>
+</html>

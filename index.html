@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#1f4d4a" />
+    <meta name="description" content="意大利旅行实务手册：支付、上网、火车、城市交通、急救、就医" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="意行手册" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Manrope:wght@500;600;700&family=Noto+Sans+SC:wght@400;500;650;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <title>意大利旅行手册</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="topbar">
+        <a class="brand" href="./index.html">
+          <span class="brand-mark">Italia · 意行</span>
+          <span class="brand-sub">Boya · 小同行实用手册</span>
+        </a>
+        <div class="top-actions">
+          <a class="chip" href="./share.html">分享</a>
+          <a class="chip chip-danger" href="./emergency.html">急救</a>
+        </div>
+      </header>
+
+      <section class="hero">
+        <p class="kicker">China passport · Schengen</p>
+        <h1>打开就能用的意大利实务</h1>
+        <p>短答 + 推荐动作 + 官网链接。先点下方六宫格；城市细节再进分城页。</p>
+      </section>
+
+      <nav class="grid-6" aria-label="六宫格">
+        <a class="tile" href="./pay.html">
+          <span class="tile-label">支付</span>
+          <span class="tile-hint">银联 · Visa/MC · 现金</span>
+        </a>
+        <a class="tile" href="./internet.html">
+          <span class="tile-label">上网</span>
+          <span class="tile-hint">eSIM · 双卡策略</span>
+        </a>
+        <a class="tile" href="./train.html">
+          <span class="tile-label">火车/巴士</span>
+          <span class="tile-hint">Trenitalia · Italo</span>
+        </a>
+        <a class="tile" href="./transit.html">
+          <span class="tile-label">城市交通</span>
+          <span class="tile-hint">地铁 · 公交 · 出租</span>
+        </a>
+        <a class="tile tile-em" href="./emergency.html">
+          <span class="tile-label">急救</span>
+          <span class="tile-hint">112 · 113 · 118</span>
+        </a>
+        <a class="tile" href="./medical.html">
+          <span class="tile-label">就医</span>
+          <span class="tile-hint">Pronto Soccorso</span>
+        </a>
+      </nav>
+
+      <section class="section">
+        <h2>城市分册</h2>
+        <div class="city-list">
+          <a class="row-link" href="./city-florence.html">佛罗伦萨 <span>Firenze · 机场→市区</span></a>
+          <a class="row-link" href="./city-rome.html">罗马 <span>Roma · 机场→市区</span></a>
+          <a class="row-link" href="./city-milan.html">米兰 <span>Milano · 机场→市区</span></a>
+          <a class="row-link" href="./city-venice.html">威尼斯 <span>Venezia · 机场→市区</span></a>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>出发前必看</h2>
+        <div class="panel">
+          <p>中国护照短期旅游一般需<strong>申根签</strong>；保险须覆盖全申根、全程、医疗/住院/遣返 <strong>≥€30,000</strong>。无 EHIC/TEAM——靠旅行险。</p>
+          <div class="action">
+            <strong>推荐动作</strong>
+            把本站「添加到主屏幕」，并收藏 <a href="./emergency.html">急救页</a>。保险单号填在急救页占位处。
+          </div>
+          <div class="links">
+            <a class="ext" href="./share.html">怎么分享 / 加主屏幕 →</a>
+            <a class="ext" href="https://ambpechino.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/visti/" target="_blank" rel="noopener">意驻华使领签证入口 ↗</a>
+          </div>
+        </div>
+      </section>
+
+      <p class="note">内容依据 2026-10 手册整理；政策与价格出发前请复核官网。</p>
+    </div>
+    <script src="./src/main.js" defer></script>
+  </body>
+</html>
