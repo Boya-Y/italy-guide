@@ -1,12 +1,9 @@
 name: Deploy GitHub Pages
-# Run after Boya enables Pages (Settings → Pages → Source: GitHub Actions),
-# or use branch deploy: main + / (root) — site files are already at repo root.
+# Site files live at repo root. Any push to main redeploys Pages.
 on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths:
-      - '.github/workflows/pages.yml'
 permissions:
   contents: read
   pages: write
